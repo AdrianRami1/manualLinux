@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comando Find</title>
+    <style>
+    body{background-color: black; color: white; text-align: center; border: 1px solid green; border-radius: 10px; padding: 10px;}
+    h1{font-size: 72px; text-shadow: 2px 2px 4px greenyellow; border: 1px green solid; border-radius: 15px;}
+    a{text-decoration: none; color: white; font-size: 32px; padding: 0.5%;margin: 12%; border: 1px solid green; border-radius: 20px;}
+    section{text-align: left; margin: 15px; border: 1px green solid; padding: 10px; border-radius: 20px;}
+    table,td,th{border: 1px solid green; padding: 10px; margin: 10px; border-collapse: collapse; white-space: pre; text-align: center;}
+    table{width: 90%;}
+    </style>
+</head>
+<body>
+    <header><h1>FIND</h1></header>
+    <nav>
+        <a href=""><span>Find</span></a>
+        <a href=""><span>Chmod</span></a>
+        <a href=""><span>Grep</span></a>
+    </nav>
+    <main>
+        <section>
+            <article><h3>Descripcion</h3>
+            <p>El comando find es una herramienta poderosa en sistemas Unix y Linux que permite buscar archivos y directorios en un sistema de archivos. Se puede usar para encontrar archivos por nombre, tipo, tamaño, fecha de modificación, permisos y otras características.</p>
+            </article>
+            <article><h3>Sintaxis Básica</h3>
+            <p>find [ruta] [opciones] [expresión]</p><br>
+            <p>Ruta: El directorio donde se inicia la búsqueda. Si no se especifica, se busca en el directorio actual.</p>
+            <p>Opciones: Modifican el comportamiento del comando find. Algunas opciones comunes son:</p>
+            <table>
+                <tr>
+                    <th>Opcion</th>
+                    <th>Uso</th>
+                    <th>Ejemplo</th>
+                    <th>Descripcion</th>
+                </tr>
+                <tr>
+                    <td>-name</td>
+                    <td>Buscar por nombre de archivo.</td>
+                    <td>find . -name archivo.txt</td>
+                    <td>Encontrar todos los archivos con el nombre "archivo.txt" en el directorio actual</td>
+                </tr>
+                <tr>
+                    <td>-type</td>
+                    <td>Buscar por tipo de archivo (directorio, archivo regular, etc.).</td>
+                    <td>find . -type d</td>
+                    <td>Encontrar todos los directorios en el directorio actual</td>
+                </tr>
+            </table>
+        
+        </article>
+        </section>
+    </main>
+    <footer></footer>
+
+</body>
+</html>
